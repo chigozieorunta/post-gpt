@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # Set the name of your plugin file
-PLUGIN_FILE="webp-image-converter.php"
+PLUGIN_FILE="post-gpt.php"
 
 # Set the name of the build directory
-BUILD_DIR="build"
+BUILD_DIR="deploy"
 
 # Set the source directories you want to copy
-SRC_DIRS="assets languages src"
+SRC_DIRS="build languages inc"
 
 # Create the build directory if it doesn't exist
 if [ ! -d "$BUILD_DIR" ]; then
