@@ -1,0 +1,30 @@
+{
+    "name": "chigozieorunta/post-gpt",
+    "description": "A simple plugin to help generate post titles and content using AI.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "PostGPT\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chigozie Orunta",
+            "email": "chigozieorunta@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "wp-coding-standards/wpcs": "^2.3",
+        "codeception/codeception": "^5.0",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "*",
+        "monolog/monolog": "^2.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
