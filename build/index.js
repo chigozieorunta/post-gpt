@@ -1,0 +1,1 @@
+!function(){"use strict";var e=window.wp.element,n=window.wp.components;(0,e.createElement)((()=>(0,e.createElement)(n.Panel,{header:"My Panel"},(0,e.createElement)(n.PanelBody,{title:"My Block Settings",initialOpen:!1},(0,e.createElement)(n.PanelRow,null,"My Panel Inputs and Labels")))),null)}();
