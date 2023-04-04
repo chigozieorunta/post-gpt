@@ -28,11 +28,11 @@
     "lint:css:fix": "stylelint assets/**/*.css --fix && stylelint assets/**/*.scss --fix",
     "lint:js": "npx eslint assets/**/*.js",
     "lint:js:fix": "npx eslint --fix assets/**/*.js",
-    "build": "bin/build.sh"
+    "build": "bin/build.sh",
+    "scripts": "wp-scripts build"
   },
   "devDependencies": {
-    "@wordpress/eslint-plugin": "^14.1.0",
-    "eslint": "^8.35.0",
+    "@wordpress/scripts": "26.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
